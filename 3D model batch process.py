@@ -10,6 +10,9 @@ import json
 import urllib
 import cStringIO
 import scipy.misc
+from StringIO import StringIO
+from zipfile import ZipFile
+from urllib import urlopen
 from pprint import pprint
 import matplotlib.pyplot as plt
 
