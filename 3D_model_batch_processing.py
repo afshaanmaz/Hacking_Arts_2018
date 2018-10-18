@@ -15,8 +15,7 @@ import scipy.misc
 from StringIO import StringIO
 from zipfile import ZipFile
 from urllib import urlopen
-from pprint import pprint
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 def get_models(username, api_key):
     """ Send a GET request to Wayfair 3D model API to get all 3D models
