@@ -64,7 +64,13 @@ def unzip_and_save_models(data, num_to_process):
         # show image
         img_url = data[i]['thumbnail_image_url']
         img_url = img_url.replace('/43/','/47/')
-        img_file = StringIO(urlopen(img_url).read())
+        #img_file = StringIO(urlopen(img_url).read())
+        
+        resource = urllib.request.urlopen(img_url)
+        content =  resource.read().decode(resource.headers.get_content_charset())
+        
+        img_file = StringIO(content)
+        
         img = scipy.misc.imread(img_file)
         #plt.imshow(img)
         #plt.show()
