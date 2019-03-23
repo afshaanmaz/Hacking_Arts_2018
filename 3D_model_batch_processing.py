@@ -10,9 +10,10 @@ import os
 import json
 import requests
 import urllib
-import cStringIO
+from io import StringIO
+#import cStringIO
 import scipy.misc
-from StringIO import StringIO
+#from StringIO import StringIO
 from zipfile import ZipFile
 from urllib import urlopen
 #import matplotlib.pyplot as plt
