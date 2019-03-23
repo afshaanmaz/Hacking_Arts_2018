@@ -2,7 +2,7 @@
 # Script for Getting 3D Models from Wayfair 3D Model API and Batch Process them
 
 ## Major Required Libraries
-urllib
+urllib #urllib is a standard library (in Python 3), you do not have to install it. Simply import urllib
 
 zipfile
 
