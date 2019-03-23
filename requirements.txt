@@ -1,3 +1,5 @@
 zipfile36
 requests
 cStringIO
+scipy
+Pillow
