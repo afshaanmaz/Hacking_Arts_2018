@@ -15,7 +15,7 @@ from io import StringIO
 import scipy.misc
 #from StringIO import StringIO
 from zipfile import ZipFile
-from urllib import urlopen
+from urllib.request import urlopen
 #import matplotlib.pyplot as plt
 
 def get_models(username, api_key):
